@@ -1,0 +1,19 @@
+address > div a{
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+a[href^='mailto']::before {
+    content: '📧 ';
+    padding: 0px 2px 0px 2px;
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+    padding: 0px 2px 0px 2px;
+}
+article{
+    /* border: 2px solid black; */
+    margin: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 0px;
+}

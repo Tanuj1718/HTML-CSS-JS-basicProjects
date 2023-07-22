@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <div class="container">
+    <div class="form"><form action="">
+        <fieldset>
+       <legend> <p>FEEDBACK FORM </p></legend>
+       <div class="labels"> <p><label for="NAME">Name:</label>
+        <input type="text" id="NAME"> </p>
+        <p><label for="EMAIL">Email:</label>
+        <input type="text" id="EMAIL"></p>
+        <p><label for="PHONE NO.">Phone:</label>
+        <input type="NUMBER" id="PHONE_NO"></p>
+        <p><label for="">Check In:</label></p>
+        <input type="date" id="date" > 
+        <input type="time" name="TIME" id="TIME">
+        <p><label for="">Check Out:</label></p>
+        <input type="date" id="date" > 
+        <input type="time" name="TIME" id="TIME">
+        <p><label for="RATE">Rate:</label>
+        <input type="range" list="tickmarks" min="0" max="100" id="rate" name="rate">
+        <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="20"></option>
+        <option value="40"></option>
+        <option value="60"></option>
+        <option value="80"></option>
+        <option value="100"></option>
+        </datalist> </p>
+        <p><label for="FEEDBACK">Feedback:</label>
+        <input type="text" id="FEEDBACK"></p>
+        <div class="Photos"> <p>Want to share photos of your journey:</p>
+        <label for="PHOTOS"></label>
+        <input type="file" id="Photos">
+     </div>
+        <button type="submit">SUBMIT</button>
+    </div>
+</fieldset> 
+</form> </div> </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+</head>
+<style>
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        text-align: center;
+        background-color: #827676;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #a98b8b;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        margin: 15px 0px 10px 0px;
+    }
+ form{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: #e1a4a4;
+ }
+ #guessNumber{
+    margin: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+ }
+
+ .container>p{
+    margin: 15px 0px 0px 0px;
+ }
+ .container :nth-child(5){
+    margin-top: 5px;
+ }
+ #btn{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 2px 2px 2px 2px;
+    margin: 5px 0px 5px 0px;
+ }
+
+</style>
+<body>
+    <div class="wrapper">
+        <h1>GUESSING GAME</h1>  
+        <div class="container">
+            <caption>Instructions: 
+                <li>Guess a number between 1 to 100</li>
+                <li>You have 10 attempts to guess the right number</li>
+            </caption>
+                <form action="">
+                    <h2>Guess a number</h2>
+                    <span><input type="text" name="guessField" id="guessField"></span>
+                   <span> <button id="btn"> Submit </button> </span>
+                </form>
+                <div class="resultParas">
+
+               
+                <p>Previous Guesses: <span class="guesses"></span> </p>
+                <p>Guess Remaining: <span class="lastResult"></span> </p>
+                <p class="lowOrHigh"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="project4.js"></script>
+</html>

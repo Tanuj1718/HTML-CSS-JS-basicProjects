@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+article{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 2px 5px 2px;
+}
+article>h2{
+    padding: 5px 0px 5px 0px;
+}
+.cards-container{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 30px 5px 20px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: #3e3261;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cards-container > div{
+    padding: 5px 5px 5px 5px;
+    margin: 2px 6px 2px 6px;
+    background-color: #c8cfe6;
+    height: 350px;
+    width: 290px;
+    border: 2px solid rgb(0, 0, 0);
+    /* overflow: scroll; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.content{
+    /* background-color: red; */
+    padding: 2px 5px 2px 5px;
+}
+.content>a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 400;
+    padding: 2px 2px 2px 2px;
+
+}
+#card1 img{
+    width: 100%;
+    height: 200px;
+}
+#card2 img{
+    width: 100%;
+    height: 200px;
+}
+#card3 img{
+    width: 100%;
+    height: 200px;
+}
+#card4 img{
+    width: 100%;
+    height: 200px;
+}
+#card5 img{
+    width: 100%;
+    height: 200px;
+}
+#card6 img{
+    width: 100%;
+    height: 200px;
+}
+
+/*--------------------------------FOR RESPOSIVE----------------------------------------*/
+/* @media(max-width: 600px ){
+    .cards-container > div{
+        background-color: #170e0e;
+    } 
+    .cards-container{
+        background-color: #efd3d3;
+    }
+} */

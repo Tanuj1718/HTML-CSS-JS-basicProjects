@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+address>a{
+text-decoration: none;
+}
+a[href^='mailto']::before {
+    content: '📧 ';
+    padding-left: 5px;
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+    padding-left: 5px;
+}
+h2{
+    /* border: 2px solid black; */
+    margin-top: 10px ;
+    padding: 5px 5px 5px 5px;
+}
+h3{
+    /* border: 2px solid black; */
+    padding: 5px 5px 5px 5px;
+}
+article{
+    padding: 5px 5px 5px 5px;
+}
+.imgContainer{
+    margin-top: 20px;
+    border: 2px solid black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXjcJa95HCB4lfT_E8p-Ivb3sm08WlMchSng&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(165, 145, 145);
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#img1{
+    border: 2px solid black;
+    background-image: url(https://images.pexels.com/photos/2363808/pexels-photo-2363808.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+#img2{
+    border: 2px solid black;
+    background-image: url(https://images.pexels.com/photos/1591361/pexels-photo-1591361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 180px;
+}
+#img3{
+    border: 2px solid black;
+    background-image: url(https://images.pexels.com/photos/6495309/pexels-photo-6495309.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+}
+#img4{
+    border: 2px solid black;
+    background-image: url(https://images.pexels.com/photos/3434523/pexels-photo-3434523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140px;
+    width: 140px;
+}
+#img5{
+    border: 2px solid black;
+    background-image: url(https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+}
+.policies{
+    /* border: 2px solid black; */
+    padding: 5px 5px 5px 5px;
+}
+.policies>h2{
+    padding-left: 0px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+}
+
