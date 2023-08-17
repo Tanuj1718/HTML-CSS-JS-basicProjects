@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    background-color: rgb(65, 3, 65);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    background-color: rgb(121, 107, 161);
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.tpanel{
+ background: linear-gradient(blueviolet, skyblue, rgb(251, 6, 251));
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0% 20%;
+    
+}
+.elem{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.box{
+background: linear-gradient(blueviolet, skyblue, rgb(251, 6, 251));
+padding: 10px 20px;
+border-radius: 2px;
+font-size: 20px;
+font-weight: 500;
+}
+.bpanel{
+    width: 100%;
+    height: calc(100% - 50px);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.bubble{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(rgb(85, 85, 145), rgb(134, 72, 134), rgb(222, 176, 222));
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+}
+.bubble:hover{
+    background:blueviolet;
+}
+#newGame{
+    display: flex;
+    justify-content: center;
+    margin: 150px 100px 100px 100px;
+}
